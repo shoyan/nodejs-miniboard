@@ -21,7 +21,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.set('trust proxy', 1) // trust first proxy
 app.use(session({
   secret: 'nodejs-miniboard-secret',
   resave: false,
