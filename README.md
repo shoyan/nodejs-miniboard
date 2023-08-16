@@ -9,3 +9,5 @@ Node.jsのインストールが必要です。
 3. npx sequelize-cli db:migrate
 4. npx sequelize-cli db:seed:all
 5. npm run start
+
+ブラウザで http://localhost:3000/boards にアクセスしてください。
